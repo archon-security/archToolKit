@@ -21,7 +21,7 @@ while [ $keyp == 1 ]; do
     read usrchoice
     case $usrchoice in
         1) keyp=0 
-        clear && bash ./src/.op1.sh ;;
+        clear && bash ./src/op1.sh ;;
         2) keyp=0
         echo 'caralho ' ;;
         3) keyp=0 
